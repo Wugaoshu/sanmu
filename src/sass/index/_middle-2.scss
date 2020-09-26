@@ -1,0 +1,44 @@
+.middle-2{
+    height: 400px;
+    width: 100%;
+    background-color: orchid;
+    float: left;
+    img{
+        height: 100%;
+        width:100% ;
+        }
+
+        .sub{
+            height: 34px;
+            width:119px;
+            // border: 1px solid white;
+            position: absolute;
+            top:535px;
+            left: 645px;
+            opacity: 0.8;
+            background-color: #004b8d;
+            line-height: 34px;
+            text-align: center;
+            z-index: 20;
+            font-size: 12px;
+            cursor: pointer;
+        }
+
+        .sub-1{
+            height: 34px;
+            width:119px;
+            // border: 1px solid white;
+            position: absolute;
+            top:535px;
+            left: 785px;
+            opacity: 0.8;
+            background-color: #fff;
+            line-height: 34px;
+            text-align: center;
+            z-index: 20;
+            font-size: 12px;
+            cursor: pointer;
+        }
+}
+
+

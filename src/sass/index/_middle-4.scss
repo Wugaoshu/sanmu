@@ -1,0 +1,149 @@
+.middle-4{
+    height: 1700.4px;
+    width: 100%;
+    background-color: hotpink;
+    float: left;
+    margin-top:9.6px ;
+    .hy{
+        height: 26.4px;
+        width: 100%;
+        background-color: #fff;
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    // 生鲜食品
+    .food{
+        height: 304px;
+        width:100% ;
+        background-color: brown; 
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        img{
+            height:220px ;
+            width: 100%;
+            display: block;
+        }
+        .ff{
+            height: 80px;
+            width:100% ;
+            background-color:#80bc0e;
+            float: left;
+            .ff-2{
+                list-style: none;
+                float: left;
+                color: #fff;
+               margin-left: 45px;
+               line-height: 25px;
+               font-size: 10px;
+               a{
+                   color: #fff;
+                   text-decoration: none;
+               }
+               }
+        }
+        
+    }
+    .food li{
+        list-style: none;
+        height: 300px;
+        width: 250px;
+        // background-color: chartreuse;
+        border: 1px solid black; 
+        .pork img{
+        height: 226px;
+        width: 226px;
+        }   
+     .ice img{
+        height: 226px;
+        width: 226px;
+     }
+     .fish img{
+        height: 226px;
+        width: 226px;
+     }
+     .chicken img{
+        height: 226px;
+        width: 226px;
+     }
+     .beef img{
+        height: 226px;
+        width: 226px;
+     }
+        
+}
+// 零食饮料
+ .drink{
+    height: 304px;
+    width:100% ;
+    background-color: brown; 
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    li{
+        list-style: none;
+        height: 300px;
+        width: 250px;
+        // background-color: chartreuse;
+        border: 1px solid black;
+        
+    }
+ }   
+ 
+// 宝宝中心
+.center{
+    height: 304px;
+    width:100% ;
+    background-color: brown; 
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    li{
+        list-style: none;
+        height: 300px;
+        width: 250px;
+        // background-color: chartreuse;
+        border: 1px solid black;
+        
+    }
+ }   
+
+// 清洁个护
+.clear{
+    height: 304px;
+    width:100% ;
+    background-color: brown; 
+    margin-top: 25px;
+    li{
+        list-style: none;
+        height: 300px;
+        width: 250px;
+        // background-color: chartreuse;
+        border: 1px solid black;
+        float: left;
+        margin-left: 1px;
+    }
+ } 
+ 
+ //数码家电
+ .elec{
+    height: 304px;
+    width:100% ;
+    background-color: brown; 
+    margin-top: 25px;
+    li{
+        list-style: none;
+        height: 300px;
+        width: 250px;
+        // background-color: chartreuse;
+        border: 1px solid black;
+        float: left;
+        margin-left: 1px;
+    }
+ } 
+ 
+}

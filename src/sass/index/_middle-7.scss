@@ -1,0 +1,36 @@
+.middle-7{
+    height:680px ;
+    width: 100%;
+    background-color: greenyellow;
+    float: left;
+    margin-top: 30px;
+    .dsb{
+        height: 100%;
+        width: 400px;
+        background-color: lightblue;
+        float: left;
+        .dsb-1{
+            height: 480px;
+            width: 400px;
+            background-color: lightslategray;
+            img{
+                height: 480px;
+                width: 100%;
+            }
+        }
+        .dsb-2{
+            height: 180px;
+            width: 400px;
+            background-color: maroon;
+            float: left;
+            margin-top: 10px;
+        }
+    }
+    .dsb-3{
+        height:100% ;
+        width: 1000px;
+        background-color: limegreen;
+        float: left;
+        margin-left: 40px;
+    }
+}

@@ -1,0 +1,55 @@
+.last-1{
+    height: 298.8px;
+    width: 100%;
+    background-color: lightgray;
+    float: left;
+    margin-top: 10px;
+    .sam{
+        height: 200px;
+        width: 100%;
+        background-color: olive;
+        display: flex;
+        flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    .sam-1 img{
+        height: 100px;
+        width:100px ;
+        text-align: center;
+
+        // 有问题
+        
+    }
+    li{
+        height: 199px;
+        width: 210px;
+        border: 1px solid black;
+       list-style: none;
+       background-color: papayawhip;
+       
+    }
+    }
+    
+.mowei{
+    height: 30px;
+    width: 100%;
+    // background-color: rosybrown;
+    margin-top: 10px;
+    text-align: center;
+    a{
+        color: black;
+        font-size: 15px;
+        line-height: 30px;
+        text-decoration: none;
+    }
+}
+
+.gongan{
+    height: 30px;
+    width: 100%;
+    // background-color: darkgrey;
+    text-align: center;
+    font-size: 15px;
+    line-height: 30px;
+}
+}

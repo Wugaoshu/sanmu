@@ -1,0 +1,129 @@
+*{
+    margin: 0 ;
+    padding: 0;
+}
+.header{
+width:100% ;
+height: 135px;
+background-color:#0069aa ;
+.header-1{
+    height: 33px;
+    width: 100%;
+    border: 1px solid #004b8d;
+    text-shadow: 1px gray;
+} 
+.title{
+    float: left;
+    font-size: 12px;
+    color: #a5c7db;
+    line-height: 33px;
+    margin-left: 10px;
+}
+.title-2{
+    font-size: 12px;
+    color: white;
+    line-height: 33px;
+}
+.line{
+    color: #a5c7db;
+    padding: 0 4px;
+}
+.title-3{
+    font-size: 12px;
+    color: white;
+    line-height: 33px;
+    }
+
+    .list{
+        height: 30px;
+        width: 429px;
+     //    background-color:salmon ;
+        float: right;
+        list-style: none;
+        font-size: 13px;
+        line-height: 30px;
+       margin-top:1px;
+       li{
+        float: left;
+        margin-left: 5px ;
+        padding: 0 5px;
+        cursor: pointer;
+        color: #a5c7db;
+    }
+    }
+    .pic{
+        height: 100px;
+        width:100%;
+        // background-color: red;
+    }
+    .sm{
+        height:100px ;
+        width:240px ;
+        // background-color: royalblue;
+        float: left;
+        img{
+            height: 100px;
+            width:233px ; 
+        }
+        }
+
+        .address{
+            height:100px ;
+            width: 190px;
+            float: left;
+            margin-left: 20px;
+            // background-color: salmon;
+            svg{
+                position: relative;
+                top: 40px;
+                left: 0;
+            }
+        }
+        .sz{
+            font-size: 10px;
+            color: #a5c7db;
+            margin-left: 20px;
+            margin-top: 18px;
+            white-space:nowrap;
+            overflow:hidden;
+            text-overflow: ellipsis;
+            cursor: pointer;
+            }
+
+            .xgdz{
+                float: left;
+                border: 1px solid #a5c7db;
+                color:  #a5c7db;
+                font-size: 12px;
+                margin-top: 40px;
+                background-color: #1a78b3;
+                cursor: pointer;
+            }
+
+
+            .box{
+                height: 34px;
+                width:300px ;
+                float: right;
+                margin-top: 35px;
+                margin-right: 80px;
+                background-color: #015c92;
+                border: 1px solid #015789;
+                input{
+                    outline: none;
+                    height:30px;
+                    width:230px ;
+                    background-color:  #015c92;
+                    border: none;
+                    color: white;
+                }
+                svg{
+                    position: relative;
+                    top: 7px;
+                    right: -30px;
+                    cursor: pointer;
+                }
+            }
+
+} 
+  
