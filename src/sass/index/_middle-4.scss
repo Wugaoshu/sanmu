@@ -12,138 +12,196 @@
         font-size: 18px;
         font-weight: bold;
     }
+
+
     // 生鲜食品
     .food{
-        height: 304px;
-        width:100% ;
-        background-color: brown; 
-        margin-top: 30px;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        img{
-            height:220px ;
-            width: 100%;
-            display: block;
-        }
-        .ff{
-            height: 80px;
-            width:100% ;
-            background-color:#80bc0e;
+        
+
+        li{
+            flex-shrink: 0;
+            list-style: none;
+            height: 300px;
+            width: 273px;
+            border: 1px solid black;
             float: left;
-            .ff-2{
-                list-style: none;
-                float: left;
-                color: #fff;
-               margin-left: 45px;
-               line-height: 25px;
-               font-size: 10px;
-               a{
-                   color: #fff;
-                   text-decoration: none;
-               }
-               }
-        }
+            img{
+                height: 226px;
+                width: 100%;
+            }
+        }  
         
+                height: 304px;
+                width:100%;
+                background-color: brown; 
+                margin-top: 30px;
+                .food-1{
+                    height: 300px;
+                    width: 300px;
+                    border: 1px solid black;
+                    float: left;
+                    margin-left: 10px;
+                }
+                .food-2 {
+                    height: 300px;
+                    width: 945px;
+                   
+
+                    display: flex;
+                        justify-content: space-between;
+                        align-items: center; 
+                         
+                }
+
     }
-    .food li{
-        list-style: none;
-        height: 300px;
-        width: 250px;
-        // background-color: chartreuse;
-        border: 1px solid black; 
-        .pork img{
-        height: 226px;
-        width: 226px;
-        }   
-     .ice img{
-        height: 226px;
-        width: 226px;
-     }
-     .fish img{
-        height: 226px;
-        width: 226px;
-     }
-     .chicken img{
-        height: 226px;
-        width: 226px;
-     }
-     .beef img{
-        height: 226px;
-        width: 226px;
-     }
-        
-}
+
+
 // 零食饮料
  .drink{
-    height: 304px;
-    width:100% ;
-    background-color: brown; 
-    margin-top: 25px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
     li{
+        flex-shrink: 0;
         list-style: none;
         height: 300px;
-        width: 250px;
-        // background-color: chartreuse;
+        width: 273px;
         border: 1px solid black;
-        
-    }
+        float: left;
+        img{
+                height: 226px;
+                width: 100%;
+            }
+        } 
+                height: 304px;
+                width:100%;
+                background-color: brown; 
+                margin-top: 30px;   
+                .drink-1{
+                    height: 300px;
+                    width: 300px;
+                    border: 1px solid black;
+                    float: left;
+                    margin-left: 10px;
+                }
+                .drink-2{
+                    height: 300px;
+                    width: 945px;
+                    // background-color: darkcyan;
+
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center; 
+                       
+                        
+                }
+   
  }   
  
 // 宝宝中心
 .center{
-    height: 304px;
-    width:100% ;
-    background-color: brown; 
-    margin-top: 25px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
     li{
+        flex-shrink: 0;
         list-style: none;
         height: 300px;
-        width: 250px;
-        // background-color: chartreuse;
+        width: 273px;
         border: 1px solid black;
-        
-    }
+        float: left;
+        img{
+                height: 226px;
+                width: 100%;
+            }
+        } 
+                height: 304px;
+                width:100%;
+                background-color: brown; 
+                margin-top: 30px;   
+                .center-1{
+                    height: 300px;
+                    width: 300px;
+                    border: 1px solid black;
+                    float: left;
+                    margin-left: 10px;
+                }
+                .center-2{
+                    height: 300px;
+                    width: 945px;
+                    // background-color: darkcyan;
+
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center; 
+                       
+                        
+                }
+   
  }   
 
 // 清洁个护
-.clear{
-    height: 304px;
-    width:100% ;
-    background-color: brown; 
-    margin-top: 25px;
+.clear{ 
     li{
+        flex-shrink: 0;
         list-style: none;
-        height: 300px;
-        width: 250px;
-        // background-color: chartreuse;
+        height: 302px;
+        width: 273px;
         border: 1px solid black;
         float: left;
-        margin-left: 1px;
-    }
- } 
- 
- //数码家电
- .elec{
+        img{
+                height: 226px;
+                width: 100%;
+            }
+        } 
     height: 304px;
-    width:100% ;
-    background-color: brown; 
-    margin-top: 25px;
-    li{
-        list-style: none;
+    width:100%;
+    background-color: sandybrown; 
+    margin-top: 30px;  
+    .clear-1{
         height: 300px;
-        width: 250px;
-        // background-color: chartreuse;
+        width: 300px;
         border: 1px solid black;
         float: left;
-        margin-left: 1px;
+        margin-left: 10px;
     }
- } 
- 
+    .clear-2{
+        height: 302px;
+        width: 822px;
+        background-color: darkcyan;
+        float: left;
+        display: flex;
+        justify-content: space-between;
+        align-items: center; 
+    }
 }
+
+ //数码家电
+ .ele{ 
+    li{
+        flex-shrink: 0;
+        list-style: none;
+        height: 302px;
+        width: 273px;
+        border: 1px solid black;
+        float: left;
+        img{
+                height: 226px;
+                width: 100%;
+            }
+        } 
+    height: 304px;
+    width:100%;
+    background-color: sandybrown; 
+    margin-top: 30px;  
+    .ele-1{
+        height: 300px;
+        width: 300px;
+        border: 1px solid black;
+        float: left;
+        margin-left: 10px;
+    }
+    .ele-2{
+        height: 302px;
+        width: 822px;
+        background-color: darkcyan;
+        float: left;
+        display: flex;
+        justify-content: space-between;
+        align-items: center; 
+    }
+}}

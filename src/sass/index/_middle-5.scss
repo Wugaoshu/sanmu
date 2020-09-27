@@ -12,9 +12,9 @@
     .menu{
         position: absolute;
         height: 535px;
-        width: 1400px;
+        width: 1600px;
         // border: 1px solid black;
-        box-shadow: 0px 5px 5px  gainsboro;
+        box-shadow: 0px 5px 0px  gainsboro;
         bottom: 0;
         right: 10px;
         // background-color: hotpink;
@@ -25,34 +25,91 @@
       width: 530px;
       background-color: ivory;
       float: left;
+      img{
+          height: 100%;
+          width: 100%;
+          cursor: pointer;
+      }
     }
     .youtu{
      height:115px ;
-     width: 870px;
+     width: 1070px;
      background-color: #fff;
      float: left;
     //  margin-left: 20px;
+    border-bottom: 1px solid gainsboro;
     h1{
-        margin-top: 10px;
+        margin-top: 20px;
         margin-left: 5px;
         // font-weight: normal;
+        margin-left: 30px;
     }
     span{
         color: #999;
         margin-left: 5px;
-        margin-top: 10px;
+        margin-top: 20px;
         font-size: 30px;
+        margin-left: 30px;
 
     }
 
     }
     .youtu-1{
         height: 420px;
-        width: 870px;
-        background-color: lawngreen;
+        width: 1070px;
+        background-color:#fff;
         // margin-left: 20px;
         float: left;
         display: block;
-        // margin-top: 20px;
+       
+        p{
+            font-size: 16px;
+            font-weight: normal;
+            margin-top: 20px;
+            margin-left: 30px
+        }
+        
+        .item{
+            height: 330px;
+            width: 230px;
+            // border: 1px solid black;
+            margin-right: 10px;
+            float: right;
+            a{
+                height: 30px;
+                width: 80px;
+                font-size: 15px;
+                color: #fff;
+                background-color: #52b014;
+               text-decoration: none;
+               margin-left: 90px;
+               margin-top: 30px;
+               display: block;
+               text-align: center;
+               line-height: 30px;
+        
+            }
+            img{
+            height: 150px;
+            width: 100%;
+        }
+        
+        .name{
+            font-size:14px ;
+            color: #333;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .text{
+            font-size:14px ;
+            text-align: center;
+            color: #999;
+        }
+
+        }
+        
+        
     }
+   
 }

@@ -1,55 +1,129 @@
+
 .last-1{
     height: 298.8px;
     width: 100%;
-    background-color: lightgray;
+    background-color: #ebebeb;
     float: left;
     margin-top: 10px;
-    .sam{
+    .sam {
         height: 200px;
         width: 100%;
-        background-color: olive;
+        border: 1px solid black;
+        background-color: #ebebeb;
         display: flex;
         flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    .sam-1 img{
-        height: 100px;
-        width:100px ;
-        text-align: center;
-
-        // 有问题
-        
-    }
+    
     li{
+       
         height: 199px;
-        width: 210px;
+        width: 240px;
         border: 1px solid black;
        list-style: none;
-       background-color: papayawhip;
+       background-color: #ebebeb;
        
     }
+    p{
+                font-size: 12px;
+                text-align: center;
+                color: #666;
+            }
+           
+    .sam-1 img{
+                height: 120px;
+                width:120px ;
+                margin-left: 50px;
+            }
+          .nan p{
+             height: 29px;
+             width: 100%;
+            background-color: #e6e6e6;
+            a{
+           font-size: 14px;
+           line-height: 29px;
+           color: black;
+           text-decoration: none;
+            }
+          }
+          .nan-1 p{
+            height: 29px;
+            width: 100%;
+           background-color: #e6e6e6;
+           a{
+          font-size: 14px;
+          line-height: 29px;
+          color: black;
+          text-decoration: none;
+           }
+         }
+         .nan-2 p{
+            height: 29px;
+            width: 100%;
+           background-color: #e6e6e6;
+           a{
+          font-size: 14px;
+          line-height: 29px;
+          color: black;
+          text-decoration: none;
+           }
+         }
+         .nan-3 p{
+            height: 29px;
+            width: 100%;
+           background-color: #e6e6e6;
+           a{
+          font-size: 14px;
+          line-height: 29px;
+          color: black;
+          text-decoration: none;
+           }
+         }
+         .nan-4 p{
+            height: 29px;
+            width: 100%;
+           background-color: #e6e6e6;
+           a{
+          font-size: 14px;
+          line-height: 29px;
+          color: black;
+          text-decoration: none;
+           }
+         }
+         .nan-5 p{
+            height: 29px;
+            width: 100%;
+           background-color: #e6e6e6;
+           a{
+          font-size: 14px;
+          line-height: 29px;
+          color: black;
+          text-decoration: none;
+           }
+         }
     }
-    
-.mowei{
-    height: 30px;
-    width: 100%;
-    // background-color: rosybrown;
-    margin-top: 10px;
-    text-align: center;
-    a{
-        color: black;
-        font-size: 15px;
-        line-height: 30px;
-        text-decoration: none;
-    }
-}
+   
+    .mowei{
+            height: 30px;
+            width: 100%;
+            // background-color: rosybrown;
+            margin-top: 10px;
+            text-align: center;
+            a{
+                color: black;
+                font-size: 15px;
+                line-height: 30px;
+                text-decoration: none;
+            }
+        }
+        
+        .gongan{
+            height: 30px;
+            width: 100%;
+            // background-color: darkgrey;
+            text-align: center;
+            font-size: 15px;
+            line-height: 30px;
+        }
 
-.gongan{
-    height: 30px;
-    width: 100%;
-    // background-color: darkgrey;
-    text-align: center;
-    font-size: 15px;
-    line-height: 30px;
-}
 }
