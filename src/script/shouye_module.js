@@ -15,8 +15,6 @@ define([
                         res.forEach(ele => {
                             str +=
                                 `
-
-                            
                                 <li>
                                 <img src="${ele.url}" alt="">
                                 <p>${ele.title}</p>
@@ -33,124 +31,125 @@ define([
                     }
                 });
             })
-        })(),
-
-        xuanran1: (function () {
-            $(function () {
-                $.ajax({
-                    type: "get",
-                    url: "http://localhost/sanmu/php/alldata.php",
-                    dataType: "json",
-                    success: function (res) {
-                        // console.log(res);
-                        let str = '';
-                        res.forEach(ele => {
-                            str +=
-                                `
-                                
-                            
-                                <li>
-                                <img src="${ele.url}" alt="">
-                                <p>${ele.title}</p>
-                                <p>¥${ele.price}</p>
-                                </li>
-                                
-                            
-                             `
-                            
-                        });
-                        
-                        $('.drink-2').html(str)
-                        
-                    }
-                });
-            })
         })()
-        ,
-        xuanran: (function () {
-            $(function () {
-                $.ajax({
-                    type: "get",
-                    url: "http://localhost/sanmu/php/alldata.php",
-                    dataType: "json",
-                    success: function (res) {
-                        // console.log(res);
-                        let str = '';
-                        res.forEach(ele => {
-                            str +=
-                                `
-                                
-                                <li>
-                                <img src="${ele.url}" alt="">
-                                <p>${ele.title}</p>
-                                <p>¥${ele.price}</p>
-                                </li>
-                             `
-                            
-                        });
+        // ,
 
-                        $('.center-2').html(str)
-                    }
-                });
-            })
-        })(),
-        xuanran: (function () {
-            $(function () {
-                $.ajax({
-                    type: "get",
-                    url: "http://localhost/sanmu/php/alldata.php",
-                    dataType: "json",
-                    success: function (res) {
-                        console.log(res);
-                        let str = '';
-                        for( var i=0;i<3;i++){
-                            str +=
-                            `
+        // xuanran1: (function () {
+        //     $(function () {
+        //         $.ajax({
+        //             type: "get",
+        //             url: "http://localhost/sanmu/php/alldata.php",
+        //             dataType: "json",
+        //             success: function (res) {
+        //                 // console.log(res);
+        //                 let str = '';
+        //                 res.forEach(ele => {
+        //                     str +=
+        //                         `
+                                
                             
-                        <li>
-                        <img src="${res[i].url}" alt="">
-                        <p>${res[i].title}</p>
-                        <p>¥${res[i].price}</p>
-                        </li>
+        //                         <li>
+        //                         <img src="${ele.url}" alt="">
+        //                         <p>${ele.title}</p>
+        //                         <p>¥${ele.price}</p>
+        //                         </li>
+                                
+                            
+        //                      `
+                            
+        //                 });
                         
-                         `
-                        }
+        //                 $('.drink-2').html(str)
+                        
+        //             }
+        //         });
+        //     })
+        // })()
+        // ,
+        // xuanran2: (function () {
+        //     $(function () {
+        //         $.ajax({
+        //             type: "get",
+        //             url: "http://localhost/sanmu/php/alldata.php",
+        //             dataType: "json",
+        //             success: function (res) {
+        //                 // console.log(res);
+        //                 let str = '';
+        //                 res.forEach(ele => {
+        //                     str +=
+        //                         `
+                                
+        //                         <li>
+        //                         <img src="${ele.url}" alt="">
+        //                         <p>${ele.title}</p>
+        //                         <p>¥${ele.price}</p>
+        //                         </li>
+        //                      `
+                            
+        //                 });
+
+        //                 $('.center-2').html(str)
+        //             }
+        //         });
+        //     })
+        // })(),
+        // xuanran3: (function () {
+        //     $(function () {
+        //         $.ajax({
+        //             type: "get",
+        //             url: "http://localhost/sanmu/php/alldata.php",
+        //             dataType: "json",
+        //             success: function (res) {
+        //                 console.log(res);
+        //                 let str = '';
+        //                 for( var i=0;i<3;i++){
+        //                     str +=
+        //                     `
+                            
+        //                 <li>
+        //                 <img src="${res[i].url}" alt="">
+        //                 <p>${res[i].title}</p>
+        //                 <p>¥${res[i].price}</p>
+        //                 </li>
+                        
+        //                  `
+        //                 }
                        
-                        $('.clear-2').html(str)
-                        // console.log(res)
-                    }
-                });
-            })
-        })()
-        ,
-        xuanran: (function () {
-            $(function () {
-                $.ajax({
-                    type: "get",
-                    url: "http://localhost/sanmu/php/alldata.php",
-                    dataType: "json",
-                    success: function (res) {
-                        console.log(res);
-                        let str = '';
-                        for( var i=0;i<3;i++){
-                            str +=
-                            `
+        //                 $('.clear-2').html(str)
+        //                 // console.log(res)
+        //             }
+        //         });
+        //     })
+        // })()
+        // ,
+        // xuanran4: (function () {
+        //     $(function () {
+        //         $.ajax({
+        //             type: "get",
+        //             url: "http://localhost/sanmu/php/alldata.php",
+        //             dataType: "json",
+        //             success: function (res) {
+        //                 console.log(res);
+        //                 let str = '';
+        //                 for( var i=0;i<3;i++){
+        //                     str +=
+        //                     `
                             
-                        <li>
-                        <img src="${res[i].url}" alt="">
-                        <p>${res[i].title}</p>
-                        <p>¥${res[i].price}</p>
-                        </li>
+        //                 <li>
+        //                 <img src="${res[i].url}" alt="">
+        //                 <p>${res[i].title}</p>
+        //                 <p>¥${res[i].price}</p>
+        //                 </li>
                         
-                         `
-                        }
+        //                  `
+        //                 }
                         
-                        $('.ele-2').html(str)
-                        // console.log(res)
-                    }
-                });
-            })
-        })()
+        //                 $('.ele-2').html(str)
+        //                 // console.log(res)
+        //             }
+        //         });
+        //     })
+        // })()
 
 
     }
