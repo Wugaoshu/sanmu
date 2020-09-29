@@ -27,10 +27,8 @@ define([
                              `
                             
                         });
-                        str = `<div class="food-1">
-
-                        </div>` +str
-                        $('.food').html(str)
+                        
+                        $('.food-2').html(str)
                         // console.log(res)
                     }
                 });
@@ -61,11 +59,9 @@ define([
                              `
                             
                         });
-                        str = `<div class="drink-1">
-
-                        </div>` +str
-                        $('.drink').html(str)
-                        // console.log(res)
+                        
+                        $('.drink-2').html(str)
+                        
                     }
                 });
             })
@@ -89,16 +85,11 @@ define([
                                 <p>${ele.title}</p>
                                 <p>¥${ele.price}</p>
                                 </li>
-                                
-                            
                              `
                             
                         });
-                        str = `<div class="center-1">
 
-                        </div>` +str
-                        $('.center').html(str)
-                        // console.log(res)
+                        $('.center-2').html(str)
                     }
                 });
             })
@@ -124,10 +115,8 @@ define([
                         
                          `
                         }
-                        str = `<div class="clear-1">
-
-                        </div>` +str
-                        $('.clear').html(str)
+                       
+                        $('.clear-2').html(str)
                         // console.log(res)
                     }
                 });
@@ -155,15 +144,15 @@ define([
                         
                          `
                         }
-                        str = `<div class="ele-1">
-
-                        </div>` +str
-                        $('.ele').html(str)
+                        
+                        $('.ele-2').html(str)
                         // console.log(res)
                     }
                 });
             })
         })()
+
+
     }
 });
  

@@ -3,41 +3,57 @@
     width: 100%;
     background-color: orchid;
     float: left;
-    img{
+    position: relative;
+    #mid-1{
         height: 100%;
         width:100% ;
+        position: absolute;
+        top: 0;
+        left: 0;
+      
         }
-
+        #mid-2{
+            height: 100%;
+        width:100% ;
+        position: absolute;
+        top: 0;
+        left: 0;
+     
+        }
         .sub{
             height: 34px;
             width:119px;
             // border: 1px solid white;
             position: absolute;
-            top:535px;
-            left: 645px;
+            top:350px;
+            left: 700px;
             opacity: 0.8;
             background-color: #004b8d;
             line-height: 34px;
             text-align: center;
-            z-index: 20;
+            // z-index: 1;
             font-size: 12px;
             cursor: pointer;
+            outline: none;
+            border: none;
         }
 
-        .sub-1{
+        .sup{
             height: 34px;
             width:119px;
             // border: 1px solid white;
             position: absolute;
-            top:535px;
-            left: 785px;
+            top:350px;
+            left: 850px;
             opacity: 0.8;
             background-color: #fff;
             line-height: 34px;
             text-align: center;
-            z-index: 20;
+            // z-index: 20;
             font-size: 12px;
             cursor: pointer;
+            outline: none;
+            border: none;
         }
 }
 

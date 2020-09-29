@@ -1,7 +1,7 @@
 .middle-4{
     height: 1700.4px;
     width: 100%;
-    background-color: hotpink;
+    // background-color: hotpink;
     float: left;
     margin-top:9.6px ;
     .hy{
@@ -31,27 +31,47 @@
             }
         }  
         
-                height: 304px;
-                width:100%;
-                background-color: brown; 
-                margin-top: 30px;
-                .food-1{
-                    height: 300px;
-                    width: 300px;
-                    border: 1px solid black;
-                    float: left;
-                    margin-left: 10px;
+        height: 304px;
+        width:100%;
+        // background-color: brown; 
+        margin-top: 30px;
+        .food-1{
+            height: 300px;
+            width: 300px;
+            border: 1px solid black;
+            float: left;
+            margin-left: 10px;
+            img{
+                height: 226px;
+                width: 100%;
+                vertical-align: top;
+            }
+            .nbgh{
+                height: 74px;
+                width: 100%;
+                background-color: #f68595;
+                float: left;
+                // display: block;
+                ul p a{
+                    text-decoration: none;
+                    font-size: 15px;
+                   float: left;
+                   margin-left: 5px;
+                    padding: 8px 15px;
+                    color: white;
                 }
-                .food-2 {
-                    height: 300px;
-                    width: 945px;
-                   
+            }
+        }
+        .food-2 {
+            height: 300px;
+            width: 945px;
+            
 
-                    display: flex;
-                        justify-content: space-between;
-                        align-items: center; 
-                         
-                }
+            display: flex;
+                justify-content: space-between;
+                align-items: center; 
+                    
+        }
 
     }
 
@@ -68,18 +88,40 @@
         img{
                 height: 226px;
                 width: 100%;
+               
             }
+            
         } 
                 height: 304px;
                 width:100%;
-                background-color: brown; 
+                // background-color: brown; 
                 margin-top: 30px;   
                 .drink-1{
-                    height: 300px;
+                    height: 299px;
                     width: 300px;
                     border: 1px solid black;
                     float: left;
                     margin-left: 10px;
+                    img{
+                        height: 226px;
+                        width: 100%;
+                        vertical-align: top;
+                    }
+                    .nbgh-1{
+                        height: 74px;
+                        width: 100%;
+                        background-color: #f68595;
+                        float: left;
+                        // display: block;
+                        ul p a{
+                            text-decoration: none;
+                            font-size: 15px;
+                           float: left;
+                           margin-left: 5px;
+                            padding: 8px 15px;
+                            color: white;
+                        }
+                    }
                 }
                 .drink-2{
                     height: 300px;
@@ -111,14 +153,36 @@
         } 
                 height: 304px;
                 width:100%;
-                background-color: brown; 
+                // background-color: brown; 
                 margin-top: 30px;   
                 .center-1{
-                    height: 300px;
+                    height: 299px;
                     width: 300px;
                     border: 1px solid black;
                     float: left;
                     margin-left: 10px;
+                    
+                    img{
+                        height: 226px;
+                        width: 100%;
+                        vertical-align: top;
+                    }
+                    .nbgh-2{
+                        height: 74px;
+                        width: 100%;
+                        background-color: #f68595;
+                        float: left;
+                        // display: block;
+                        ul p a{
+                            text-decoration: none;
+                            font-size: 15px;
+                           float: left;
+                           margin-left: 5px;
+                            padding: 8px 15px;
+                            color: white;
+                        }
+                    }
+                   
                 }
                 .center-2{
                     height: 300px;
@@ -150,7 +214,7 @@
         } 
     height: 304px;
     width:100%;
-    background-color: sandybrown; 
+    // background-color: sandybrown; 
     margin-top: 30px;  
     .clear-1{
         height: 300px;
@@ -158,11 +222,32 @@
         border: 1px solid black;
         float: left;
         margin-left: 10px;
+        img{
+            height: 226px;
+            width: 100%;
+            vertical-align: top;
+        }
+        .nbgh-3{
+            height: 74px;
+            width: 100%;
+            background-color: #f68595;
+            float: left;
+            // display: block;
+            ul p a{
+                text-decoration: none;
+                font-size: 15px;
+               float: left;
+               margin-left: 5px;
+                padding: 8px 15px;
+                color: white;
+            }
+        }
+        
     }
     .clear-2{
         height: 302px;
         width: 822px;
-        background-color: darkcyan;
+        // background-color: darkcyan;
         float: left;
         display: flex;
         justify-content: space-between;
@@ -186,7 +271,7 @@
         } 
     height: 304px;
     width:100%;
-    background-color: sandybrown; 
+    // background-color: sandybrown; 
     margin-top: 30px;  
     .ele-1{
         height: 300px;
@@ -194,11 +279,30 @@
         border: 1px solid black;
         float: left;
         margin-left: 10px;
+        img{
+            height: 226px;
+            width: 100%;
+        }
+        .nbgh-4{
+            height: 74px;
+            width: 100%;
+            background-color: #f68595;
+            float: left;
+            // display: block;
+            ul p a{
+                text-decoration: none;
+                font-size: 15px;
+               float: left;
+               margin-left: 5px;
+                padding: 8px 15px;
+                color: white;
+            }
+        }
     }
     .ele-2{
         height: 302px;
         width: 822px;
-        background-color: darkcyan;
+        // background-color: darkcyan;
         float: left;
         display: flex;
         justify-content: space-between;

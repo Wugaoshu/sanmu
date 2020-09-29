@@ -11,7 +11,148 @@ background-color:#0069aa ;
     width: 100%;
     border: 1px solid #004b8d;
     text-shadow: 1px gray;
+//二级导航
+.dis{
+    height: 30px;
+    width:400px ;
+     float: right;
+     margin-right: 10px;
+     li{
+         list-style: none;
+         text-align: center;
+         z-index: 1;
+        background-color: white;
+       
+     }
+     .fa4{
+        height: 30px;
+        width: 80px;
+        // background-color: white;
+        float: left;
+        list-style: none;
+        line-height: 30px;
+        background-color:#0069aa ;
+        color: #a5c7db;
+        font-size: 13px;
+        .dis-5{
+            height: 90px;
+            width: 80px;
+            // background-color: wheat;
+            display: none;
+            color:#a5c7db;
+            color: #333;
+        }
+     }
+     .fa3{
+        height: 30px;
+        width: 80px;
+        // background-color: white;
+        float: left;
+        list-style: none;
+        background-color:#0069aa ;
+        color: #a5c7db;
+        font-size: 13px;
+        .dis-4{
+            height: 90px;
+            width: 80px;
+            // background-color: wheat;
+            display: none;
+            
+        }
+     }
+     .fa2{
+        height: 30px;
+        width: 80px;
+        // background-color: white;
+        float: left;
+        list-style: none;
+        background-color:#0069aa ;
+        color: #a5c7db;
+        font-size: 13px;
+        .dis-3{
+            height: 90px;
+            width: 80px;
+            // background-color: wheat;
+            display: none;
+            color: #333;
+        }
+     }
+     .fa1{
+        height: 30px;
+        width: 80px;
+        // background-color: white;
+        float: left;
+        list-style: none;
+        line-height: 30px;
+        background-color:#0069aa ;
+        color: #a5c7db;
+        font-size: 13px;
+        .dis-2{
+            height: 90px;
+            width: 80px;
+            // background-color: wheat;
+            display: none;
+            color: #333;
+        }
+     }
+     .fa2{
+        height: 30px;
+        width: 80px;
+        // background-color: white;
+        float: left;
+        list-style: none;
+        line-height: 30px;
+     }
+     .fa3{
+        height: 30px;
+        width: 80px;
+        // background-color: white;
+        float: left;
+        list-style: none;
+        line-height: 30px;
+     }
+    .fa{
+        height: 30px;
+        width: 80px;
+        // background-color: white;
+        float: left;
+        list-style: none;
+        line-height: 30px;
+        background-color:#0069aa ;
+        color: #a5c7db;
+        font-size: 13px;
+        .dis-1{
+            height: 90px;
+            width: 80px;
+            // background-color: wheat;
+            display: none;
+            color: #333;
+        }
+   }
+
+
+}
+
+.dis>.fa:hover .dis-1{
+    display: block;
+}
+.dis>.fa1:hover .dis-2{
+    display: block;
+}
+.dis>.fa2:hover .dis-3{
+    display: block;
+}
+.dis>.fa3:hover .dis-4{
+    display: block;
+}
+.dis>.fa4:hover .dis-5{
+    display: block;
+}
+
+
+
 } 
+
 .title{
     float: left;
     font-size: 12px;
@@ -34,23 +175,16 @@ background-color:#0069aa ;
     line-height: 33px;
     }
 
-    .list{
-        height: 30px;
-        width: 429px;
-     //    background-color:salmon ;
-        float: right;
-        list-style: none;
-        font-size: 13px;
-        line-height: 30px;
-       margin-top:1px;
-       li{
-        float: left;
-        margin-left: 5px ;
-        padding: 0 5px;
-        cursor: pointer;
-        color: #a5c7db;
-    }
-    }
+  
+    
+
+
+
+
+
+
+
+
     .pic{
         height: 100px;
         width:100%;
@@ -109,6 +243,7 @@ background-color:#0069aa ;
                 margin-right: 80px;
                 background-color: #015c92;
                 border: 1px solid #015789;
+                
                 input{
                     outline: none;
                     height:30px;
@@ -116,6 +251,7 @@ background-color:#0069aa ;
                     background-color:  #015c92;
                     border: none;
                     color: white;
+                    
                 }
                 svg{
                     position: relative;

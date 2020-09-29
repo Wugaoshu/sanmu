@@ -1,18 +1,19 @@
 .middle-7{
     height:680px ;
     width: 100%;
-    background-color: greenyellow;
+    background-color:#f8f8f8;
     float: left;
     margin-top: 30px;
     .dsb{
         height: 100%;
         width: 400px;
-        background-color: lightblue;
+        // background-color: lightblue;
         float: left;
+        
         .dsb-1{
             height: 480px;
             width: 400px;
-            background-color: lightslategray;
+            // background-color: lightslategray;
             img{
                 height: 480px;
                 width: 100%;
@@ -21,16 +22,34 @@
         .dsb-2{
             height: 180px;
             width: 400px;
-            background-color: maroon;
+            // background-color: maroon;
             float: left;
             margin-top: 10px;
+            
+            .weixin{
+                height: 120px;
+                width: 100px;
+                // border: 1px solid black;
+                margin-left: 70px ;
+                margin-top: 50px;
+                img{
+                    height: 90px;
+                    width: 100%; 
+                };
+            }
         }
     }
     .dsb-3{
         height:100% ;
         width: 1000px;
-        background-color: limegreen;
+        // background-color: limegreen;
         float: left;
         margin-left: 40px;
+      .dsb-4{
+          height: 100%;
+          width: 1100px;
+          overflow: scroll;
+          
+      }
     }
 }
