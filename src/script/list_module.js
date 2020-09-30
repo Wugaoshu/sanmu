@@ -13,7 +13,7 @@ define(['pagination', 'jlazyload'], function() {
                 url: 'http://localhost/sanmu/php/list.php',
                 dataType: 'json'
             }).done(function(data) {
-                console.log(data );
+                // console.log(data );
                 let $strhtml = '<ul>';
                 $.each(data, function(index, value) {
                     $strhtml += `
@@ -60,7 +60,7 @@ define(['pagination', 'jlazyload'], function() {
                 callback: function(api) {
                     console.log(api.getCurrent()); //获取的页码给后端
                     $.ajax({
-                        url: 'http://192.168.13.66/projectname/php/listdata.php',
+                        url: 'http://localhost/sanmu/php/listdata.php',
                         data: {
                             page: api.getCurrent()
                         },
@@ -95,7 +95,6 @@ define(['pagination', 'jlazyload'], function() {
                     })
                 }
             });
-
             //3.排序
 
             $('button').eq(0).on('click', function() {

@@ -1,0 +1,267 @@
+.all{
+    position: relative;
+}
+.registry{
+    height: 260px;
+    width:100% ;
+    background-color: #f8f8f8;
+     img{
+        height:100px ;
+        width:100px ;
+        margin-left: 720px;
+        margin-top: 60px;
+    }
+    h2{
+        text-align: center;
+        font-weight: normal;
+        margin-left: 19px;
+    }
+}
+.member{
+    height: 785px;
+    width: 100%;
+    // background-color: lawngreen;
+    float: left;
+    .card{
+        height: 140px;
+        width: 100%;
+        // background-color: lightcoral;
+       
+        .card-1{
+            height:132px ;
+            width:196px ;
+            border: 1px solid #0799c9;
+            margin-left: 540px;
+            float: left;
+            text-decoration: none;
+          
+            p{
+                font-size: 18px;
+                font-weight: bold;
+                color: #000;
+               text-align: center;
+               line-height: 132px;
+            }
+        }
+        .card-2{
+            height:132px ;
+            width:196px ;
+            border: 1px solid #0799c9;
+            float: left;
+            margin-left: 45px;
+            text-decoration: none;
+            p{
+                font-size: 18px;
+                font-weight: bold;
+                color: #000;
+                text-align: center;
+                line-height: 132px;
+            }
+        }
+    }
+    
+}
+.user{
+    height: 38px;
+    width: 100%;
+    // background-color: khaki;
+    float: left;
+    text-align: center;
+    input{
+        height: 38px;
+        width: 442px;
+        outline: none;
+
+    }
+   
+}
+.tishi{
+    height:38px ;
+    width: 100%;
+    // background-color: lightcoral;
+    float: left;
+    
+    span{
+    font-size: 15px;
+    color: #aaa;
+    margin-left: 550px;
+    line-height: 38px;
+    }
+}
+.user-1{
+    height: 38px;
+    width: 100%;
+    // background-color: khaki;
+    float: left;
+    text-align: center;
+    input{
+        height: 38px;
+        width: 442px;
+        outline: none;
+
+    }
+     
+}
+.tishi-1{
+    height:38px ;
+    width: 100%;
+    // background-color: lightcoral;
+    float: left;
+    
+    span{
+    font-size: 15px;
+    color: #aaa;
+    margin-left: 550px;
+    line-height: 38px;
+    }
+}
+
+.user-2{
+    height: 38px;
+    width: 100%;
+    // background-color: khaki;
+    float: left;
+    text-align: center;
+    input{
+        height: 38px;
+        width: 442px;
+        outline: none;
+
+    }
+     
+}
+.tishi-2{
+    height:38px ;
+    width: 100%;
+    // background-color: lightcoral;
+    float: left;
+    
+    span{
+    font-size: 15px;
+    color: #aaa;
+    margin-left: 550px;
+    line-height: 38px;
+    }
+}
+
+.user-3{
+    height: 38px;
+    width: 100%;
+    // background-color: khaki;
+    float: left;
+    text-align: center;
+    input{
+        height: 38px;
+        width: 442px;
+        outline: none;
+
+    }
+     
+}
+.user-4{
+    height: 38px;
+    width: 100%;
+    // background-color: khaki;
+    float: left;
+    text-align: center;
+    margin-top: 38px;
+    input{
+        height: 38px;
+        width: 442px;
+        outline: none;
+
+    }
+     
+}
+
+.user-5{
+    height: 38px;
+    width: 100%;
+    // background-color: khaki;
+    float: left;
+   text-align: center;
+    margin-top: 38px;
+   .co{
+    height: 40px;
+    width:442px ;
+    // background-color: darkgray;
+    margin-left: 540px;
+    input{
+        height: 38px;
+        width: 300px;
+        outline: none;  
+        float: left;
+    }
+    a{
+        background-color:#eee;
+        height: 42px;
+        width: 130px;
+        float: right;
+        text-decoration: none;
+        line-height:38px ;
+        color:  #ccc;
+    }
+   }    
+}
+
+.inf{
+    height: 15px;
+    width: 100%;
+    // background-color: darkmagenta;
+    margin-top: 38px;
+    float: left;
+    input{
+        height: 15px;
+        width: 15px;
+        margin-left: 552px;
+        vertical-align: middle;
+    }
+    label{
+        font-size: 13px;
+        
+        
+    }
+   
+}
+
+.inf-2{
+    height: 15px;
+    width: 100%;
+    // background-color: aqua;
+    margin-top: 10px;
+    float: left;
+    input{
+        height: 15px;
+        width: 15px;
+        margin-left: 552px;
+        vertical-align: middle;
+    }
+    label{
+        font-size: 13px;
+    }
+    a{
+        font-size: 13px;
+        text-decoration: none;
+        color: #006aaf;
+    }
+}
+.btn-box{
+    height: 50px;
+    width: 220px;
+    background-color: #006aaf;
+   float: left;
+  margin-left: 640px; 
+  margin-top: 30px;
+  text-align: center;
+a{
+    line-height: 50px;
+    font-size: 40px;
+    text-decoration: none;
+    color: #fff;
+}
+}
+
+    
+
+
+
