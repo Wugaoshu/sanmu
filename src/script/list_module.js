@@ -13,6 +13,7 @@ define(['pagination', 'jlazyload'], function() {
                 url: 'http://localhost/sanmu/php/list.php',
                 dataType: 'json'
             }).done(function(data) {
+                console.log(data );
                 let $strhtml = '<ul>';
                 $.each(data, function(index, value) {
                     $strhtml += `
