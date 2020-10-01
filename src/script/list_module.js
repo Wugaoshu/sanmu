@@ -43,7 +43,7 @@ define(['pagination', 'jlazyload'], function() {
                 $('.list li').each(function(index, element) {
                     array[index] = $(this);
                     array_default[index] = $(this);
-                });
+                }); 
             });
             //渲染的外部无法获取内部的元素对象，通过事件委托实现。
 

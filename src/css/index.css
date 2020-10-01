@@ -39,6 +39,7 @@
   background-color: #0069aa;
   color: #a5c7db;
   font-size: 13px;
+  position: relative;
 }
 
 .header .header-1 .dis .fa4 .dis-5 {
@@ -57,12 +58,14 @@
   background-color: #0069aa;
   color: #a5c7db;
   font-size: 13px;
+  position: relative;
 }
 
 .header .header-1 .dis .fa3 .dis-4 {
   height: 90px;
   width: 80px;
   display: none;
+  color: #000;
 }
 
 .header .header-1 .dis .fa2 {
@@ -73,6 +76,7 @@
   background-color: #0069aa;
   color: #a5c7db;
   font-size: 13px;
+  position: relative;
 }
 
 .header .header-1 .dis .fa2 .dis-3 {
@@ -91,6 +95,7 @@
   background-color: #0069aa;
   color: #a5c7db;
   font-size: 13px;
+  position: relative;
 }
 
 .header .header-1 .dis .fa1 .dis-2 {
@@ -106,6 +111,7 @@
   float: left;
   list-style: none;
   line-height: 30px;
+  position: relative;
 }
 
 .header .header-1 .dis .fa3 {
@@ -125,11 +131,14 @@
   background-color: #0069aa;
   color: #a5c7db;
   font-size: 13px;
+  z-index: 99;
+  position: relative;
 }
 
 .header .header-1 .dis .fa .dis-1 {
   height: 90px;
   width: 80px;
+  background-color: white;
   display: none;
   color: #333;
 }
@@ -182,6 +191,12 @@
 .header .pic {
   height: 100px;
   width: 100%;
+}
+
+.header .pic .crt svg {
+  position: relative;
+  top: 25px;
+  left: 1120px;
 }
 
 .header .sm {
@@ -302,6 +317,7 @@
   position: fixed;
   top: 0px;
   display: none;
+  z-index: 99;
 }
 
 .middle-2 {
@@ -682,6 +698,7 @@
 .middle-4 .ele .ele-1 img {
   height: 226px;
   width: 100%;
+  vertical-align: top;
 }
 
 .middle-4 .ele .ele-1 .nbgh-4 {
@@ -916,7 +933,6 @@
 .last-1 .sam {
   height: 200px;
   width: 100%;
-  border: 1px solid black;
   background-color: #ebebeb;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1456,11 +1472,542 @@
   color: #fff;
 }
 
-.own {
-  height: 38px;
-  width: 442px;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  width: 100%;
+  height: 135px;
+  background-color: #0069aa;
+}
+
+.header .header-1 {
+  height: 33px;
+  width: 100%;
+  border: 1px solid #004b8d;
+  text-shadow: 1px gray;
+}
+
+.header .header-1 .dis {
+  height: 30px;
+  width: 400px;
+  float: right;
+  margin-right: 10px;
+}
+
+.header .header-1 .dis li {
+  list-style: none;
+  text-align: center;
+  z-index: 1;
+  background-color: white;
+}
+
+.header .header-1 .dis .fa4 {
+  height: 30px;
+  width: 80px;
+  float: left;
+  list-style: none;
+  line-height: 30px;
+  background-color: #0069aa;
+  color: #a5c7db;
+  font-size: 13px;
+  position: relative;
+}
+
+.header .header-1 .dis .fa4 .dis-5 {
+  height: 90px;
+  width: 80px;
+  display: none;
+  color: #a5c7db;
+  color: #333;
+}
+
+.header .header-1 .dis .fa3 {
+  height: 30px;
+  width: 80px;
+  float: left;
+  list-style: none;
+  background-color: #0069aa;
+  color: #a5c7db;
+  font-size: 13px;
+  position: relative;
+}
+
+.header .header-1 .dis .fa3 .dis-4 {
+  height: 90px;
+  width: 80px;
+  display: none;
+  color: #000;
+}
+
+.header .header-1 .dis .fa2 {
+  height: 30px;
+  width: 80px;
+  float: left;
+  list-style: none;
+  background-color: #0069aa;
+  color: #a5c7db;
+  font-size: 13px;
+  position: relative;
+}
+
+.header .header-1 .dis .fa2 .dis-3 {
+  height: 90px;
+  width: 80px;
+  display: none;
+  color: #333;
+}
+
+.header .header-1 .dis .fa1 {
+  height: 30px;
+  width: 80px;
+  float: left;
+  list-style: none;
+  line-height: 30px;
+  background-color: #0069aa;
+  color: #a5c7db;
+  font-size: 13px;
+  position: relative;
+}
+
+.header .header-1 .dis .fa1 .dis-2 {
+  height: 90px;
+  width: 80px;
+  display: none;
+  color: #333;
+}
+
+.header .header-1 .dis .fa2 {
+  height: 30px;
+  width: 80px;
+  float: left;
+  list-style: none;
+  line-height: 30px;
+  position: relative;
+}
+
+.header .header-1 .dis .fa3 {
+  height: 30px;
+  width: 80px;
+  float: left;
+  list-style: none;
+  line-height: 30px;
+}
+
+.header .header-1 .dis .fa {
+  height: 30px;
+  width: 80px;
+  float: left;
+  list-style: none;
+  line-height: 30px;
+  background-color: #0069aa;
+  color: #a5c7db;
+  font-size: 13px;
+  z-index: 99;
+  position: relative;
+}
+
+.header .header-1 .dis .fa .dis-1 {
+  height: 90px;
+  width: 80px;
+  background-color: white;
+  display: none;
+  color: #333;
+}
+
+.header .header-1 .dis > .fa:hover .dis-1 {
+  display: block;
+}
+
+.header .header-1 .dis > .fa1:hover .dis-2 {
+  display: block;
+}
+
+.header .header-1 .dis > .fa2:hover .dis-3 {
+  display: block;
+}
+
+.header .header-1 .dis > .fa3:hover .dis-4 {
+  display: block;
+}
+
+.header .header-1 .dis > .fa4:hover .dis-5 {
+  display: block;
+}
+
+.header .title {
+  float: left;
+  font-size: 12px;
+  color: #a5c7db;
+  line-height: 33px;
+  margin-left: 10px;
+}
+
+.header .title-2 {
+  font-size: 12px;
+  color: white;
+  line-height: 33px;
+}
+
+.header .line {
+  color: #a5c7db;
+  padding: 0 4px;
+}
+
+.header .title-3 {
+  font-size: 12px;
+  color: white;
+  line-height: 33px;
+}
+
+.header .pic {
+  height: 100px;
+  width: 100%;
+}
+
+.header .pic .crt svg {
+  position: relative;
+  top: 25px;
+  left: 1136px;
+}
+
+.header .sm {
+  height: 100px;
+  width: 240px;
+  float: left;
+}
+
+.header .sm img {
+  height: 100px;
+  width: 233px;
+}
+
+.header .address {
+  height: 100px;
+  width: 190px;
+  float: left;
+  margin-left: 20px;
+}
+
+.header .address svg {
+  position: relative;
+  top: 40px;
+  left: 0;
+}
+
+.header .sz {
+  font-size: 10px;
+  color: #a5c7db;
+  margin-left: 20px;
+  margin-top: 18px;
+  white-space: nowrap;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+  cursor: pointer;
+}
+
+.header .xgdz {
+  float: left;
+  border: 1px solid #a5c7db;
+  color: #a5c7db;
+  font-size: 12px;
+  margin-top: 40px;
+  background-color: #1a78b3;
+  cursor: pointer;
+}
+
+.header .box {
+  height: 34px;
+  width: 300px;
+  float: right;
+  margin-top: 35px;
+  margin-right: 80px;
+  background-color: #015c92;
+  border: 1px solid #015789;
+}
+
+.header .box input {
   outline: none;
+  height: 30px;
+  width: 230px;
+  background-color: #015c92;
+  border: none;
+  color: white;
+}
+
+.header .box svg {
+  position: relative;
+  top: 7px;
+  right: -30px;
+  cursor: pointer;
+}
+
+.middle {
+  height: 60px;
+  width: 100%;
+  background-color: #004b8a;
+  position: relative;
+}
+
+.middle ul li {
+  list-style: none;
+  float: left;
+  padding: 0 30px;
+  line-height: 60px;
+}
+
+.middle ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.nac li.active {
+  background-color: #fff;
+}
+
+.cartlist {
   position: absolute;
-  top: 400px;
-  left: 536px;
+  top: 58px;
+  left: 0;
+  width: 200px;
+  height: 410px;
+  border: 1px solid #f7f7f7;
+  background-color: #fff;
+  z-index: 1;
+  display: none;
+}
+
+.cartlist .item {
+  display: none;
+}
+
+.xuanfu {
+  height: 60px;
+  width: 100%;
+  background-color: #004b8d;
+  position: fixed;
+  top: 0px;
+  display: none;
+  z-index: 99;
+}
+
+.nav_cart {
+  height: 150px;
+  width: 100%;
+  float: left;
+}
+
+.nav_cart .nav_ca {
+  height: 150px;
+  width: 1200px;
+  margin-left: 260px;
+  position: relative;
+}
+
+.nav_cart .nav_ca h2 {
+  font-size: 20px;
+  color: #0069aa;
+  position: absolute;
+  top: 120px;
+  left: 0;
+}
+
+.nav_cart .nav_ca .light {
+  height: 80px;
+  width: 380px;
+  float: right;
+  margin-top: 65px;
+  background-color: #fff7d1;
+}
+
+.nav_cart .nav_ca .light p {
+  font-size: 15px;
+  padding: 15px 10px;
+}
+
+.cont {
+  height: 650px;
+  width: 1200px;
+  border: 1px solid #e3e3e3;
+  background: #fafafa url(/sanmu/src/img/kong-img.png) no-repeat center 120px;
+  margin-left: 260px;
+  float: left;
+  position: relative;
+}
+
+.cont p {
+  font-size: 25px;
+  color: #666;
+  position: absolute;
+  top: 300px;
+  left: 510px;
+}
+
+.cont a {
+  height: 60px;
+  width: 220px;
+  background-color: #0069aa;
+  display: block;
+  line-height: 60px;
+  text-align: center;
+  font-size: 35px;
+  text-decoration: none;
+  color: #fff;
+  position: absolute;
+  top: 390px;
+  left: 520px;
+}
+
+.last-1 {
+  height: 298.8px;
+  width: 100%;
+  background-color: #ebebeb;
+  float: left;
+  margin-top: 10px;
+}
+
+.last-1 .sam {
+  height: 200px;
+  width: 100%;
+  background-color: #ebebeb;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.last-1 .sam li {
+  height: 199px;
+  width: 240px;
+  list-style: none;
+  background-color: #ebebeb;
+}
+
+.last-1 .sam p {
+  font-size: 12px;
+  text-align: center;
+  color: #666;
+}
+
+.last-1 .sam .sam-1 img {
+  height: 120px;
+  width: 120px;
+  margin-left: 50px;
+}
+
+.last-1 .sam .nan p {
+  font-size: 12px;
+  float: left;
+}
+
+.last-1 .sam .nan p {
+  height: 29px;
+  width: 100%;
+  background-color: #e6e6e6;
+}
+
+.last-1 .sam .nan p a {
+  font-size: 14px;
+  line-height: 29px;
+  color: black;
+  text-decoration: none;
+}
+
+.last-1 .sam .nan-1 p {
+  height: 29px;
+  width: 100%;
+  background-color: #e6e6e6;
+}
+
+.last-1 .sam .nan-1 p a {
+  font-size: 14px;
+  line-height: 29px;
+  color: black;
+  text-decoration: none;
+}
+
+.last-1 .sam .nan-2 p {
+  height: 29px;
+  width: 100%;
+  background-color: #e6e6e6;
+}
+
+.last-1 .sam .nan-2 p a {
+  font-size: 14px;
+  line-height: 29px;
+  color: black;
+  text-decoration: none;
+}
+
+.last-1 .sam .nan-3 p {
+  height: 29px;
+  width: 100%;
+  background-color: #e6e6e6;
+}
+
+.last-1 .sam .nan-3 p a {
+  font-size: 14px;
+  line-height: 29px;
+  color: black;
+  text-decoration: none;
+}
+
+.last-1 .sam .nan-4 p {
+  height: 29px;
+  width: 100%;
+  background-color: #e6e6e6;
+}
+
+.last-1 .sam .nan-4 p a {
+  font-size: 14px;
+  line-height: 29px;
+  color: black;
+  text-decoration: none;
+}
+
+.last-1 .sam .nan-5 p {
+  height: 29px;
+  width: 100%;
+  background-color: #e6e6e6;
+}
+
+.last-1 .sam .nan-5 p a {
+  font-size: 14px;
+  line-height: 29px;
+  color: black;
+  text-decoration: none;
+}
+
+.last-1 .mowei {
+  height: 30px;
+  width: 100%;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.last-1 .mowei a {
+  color: black;
+  font-size: 15px;
+  line-height: 30px;
+  text-decoration: none;
+}
+
+.last-1 .gongan {
+  height: 30px;
+  width: 100%;
+  text-align: center;
+  font-size: 15px;
+  line-height: 30px;
 }
