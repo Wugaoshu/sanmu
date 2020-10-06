@@ -320,71 +320,145 @@ background-color:#0069aa ;
         z-index: 99;
     }
 
-.nav_cart{
-    height:150px ;
+
+//渲染
+.xuanran{
+    height:400px ;
     width: 100%;
-    // background-color:darkgray ;
-    float: left;
+    // background-color:firebrick;
    
-    .nav_ca{
-        height: 150px;
+    .shopping{
+        height:400px;
         width: 1200px;
-        // background-color: darkorange;
-        margin-left: 260px;
-        position: relative;
-        h2{
-            font-size: 20px;
-            color: #0069aa;
-            position: absolute;
-            top: 120px;
-            left: 0;
-        }
-        .light{
-            height: 80px;
-            width: 380px;
-            float: right;
-            margin-top: 65px;
-            background-color: #fff7d1;
-            p{
+        // background-color: forestgreen;
+       margin-left: 160px;
+        .nav-1{
+            height: 50px;
+            width: 100%;
+            background-color: ghostwhite;
+            h2{
+                color: #0069aa;
+                font-weight: bold;
+                float: left;
+                line-height: 50px;
+            }
+            input{
+                height: 15px;
+                width: 15px;
+                margin-top: 20px;
+                margin-left: 20px;
+                float: left;
+            }
+            em{
+                float: left;
+                margin-top: 17px;
+                color: #666;
                 font-size: 15px;
-                padding: 15px 10px;
             }
         }
+        .nav-2{
+            height: 50px;
+            width: 100%;
+            background-color: #fafafa; 
+            border-bottom: 1px solid #e3e3e3;
+            span{
+                font-size: 20px;
+                font-weight: bold;
+                line-height: 50px;
+            }
+        }
+        .nav-3{
+            height: 50px;
+            width: 100%;
+            // background-color: rosybrown; 
+            line-height: 50px;
+            border-bottom: 1px solid #e3e3e3;
+            .sd{
+                margin-left: 120px;
+                color:#666 ;
+                font-size: 14px;
+            }
+            .sd-1{
+                margin-left: 120px;
+                font-size: 14px;
+                color:#666 ;
+            }
+            .sd-2{
+                margin-left: 90px;
+                font-size: 14px;
+                color:#666 ;
+            }
+            .sd-3{
+                margin-left: 90px;
+                font-size: 14px;
+                color:#666 ;
+            }
+            .sd-4{
+                margin-left: 90px;
+                font-size: 14px;
+                color:#666 ;
+            }
+            .sd-5{
+                margin-left: 120px;
+                font-size: 14px;
+                color:#666 ;
+            }
+            .allsel{
+                height: 15px;
+                width:15px ;
+              margin-left: 10px;
+            }
+        }
+        .nav-4{
+            height: 150px;
+            width: 100%;
+            background-color: hotpink; 
+            border-bottom: 1px solid #e3e3e3;
+        }
+        .nav-5{
+            height: 80px;
+            width: 100%;
+            // background-color: darkgrey; 
+            line-height: 80px;
+            border-bottom: 1px solid #e3e3e3;
+            .jiesuan{
+                height: 80px;
+                width: 100px;
+                background-color: gray;
+                float: left;
+                font-size: 30px;
+                color: #fff;
+                text-align: center;
+            }
+            .check{
+                height: 80px;
+                width: 100px;
+                // background-color: greenyellow;
+                float: left;
+                margin-left: 900px;
+               
+            }
+            input{
+                height: 15px;
+                width: 15px;
+                margin-left: 10px;
+                float: left;
+                margin-top: 31px;
+            }
+            em{
+                margin-left: 10px;
+                float: left;
+            }
+        }
+
+
     }
+    
+
+
+
 }
 
-.cont{
-    height: 650px;
-    width: 1200px;
-    border: 1px solid #e3e3e3;
-    background:  #fafafa  url(/sanmu/src/img/kong-img.png) no-repeat center 120px ;
-    margin-left: 260px;
-    float: left;
-    position: relative;
-    p{
-        font-size: 25px;
-        color: #666;
-        position: absolute;
-        top: 300px;
-        left: 510px;
-    }
-    a{
-        height:60px ;
-        width: 220px;
-        background-color: #0069aa;
-        display: block;
-        line-height: 60px;
-        text-align: center;
-        font-size: 35px;
-        text-decoration: none;
-        color: #fff;
-        position: absolute;
-        top: 390px;
-        left: 520px;
-    }
-}
-
-  
 
 .last-1{
     height: 298.8px;

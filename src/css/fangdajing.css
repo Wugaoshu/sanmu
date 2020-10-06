@@ -1,0 +1,47 @@
+.small {
+    float: left;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #ccc;
+    position: relative;
+}
+
+.small>img {
+    width: 300px;
+    height: 300px;
+}
+
+.small>.movebox {
+    /* width: 100px;
+    height: 100px; */
+    border: 1px solid #ccc;
+    background-color: orange;
+    opacity: .2;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.big {
+    float: left;
+    width: 500px;
+    height: 500px;
+    border: 1px solid #ccc;
+    margin-left: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.big>.bigpicture {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}

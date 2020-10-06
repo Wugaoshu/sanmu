@@ -10,7 +10,7 @@
         page-origin="./script/shouye_module.js" id="currentpage"></script>
     <script src="./script/jquery.js"></script>
     <script src="./script/cart xuanfu.js"></script>
-    <script src="./script/cart.js"></script>
+   
 </head>
 
 <body>
@@ -204,27 +204,42 @@
 
     </div>
 
-
-    <div class="nav_cart">
-        <div class="nav_ca">
-            <h2>我的购物车</h2>
-            <div class="light">
-                <p>
-                    
-                        购物车升级咯～不同品类的商品可以分步结算啦！<br>
-                        想加什加什么，结算的事儿购物车都会帮您打理好，就等您一键下单～ 
-	       			
-                </p>
-            </div>
+<!-- 渲染 -->
+    <div class="xuanran">
+      <div class="shopping">
+        <div class="nav-1">
+           <h2>我的购物车</h2>
+           <input type="checkbox"> <em>极速达（99元包邮）</em> 
+            
         </div>
+        <div class="nav-2">
+            <span>普通商品</span>
+        </div>
+        <div class="nav-3">
+            <span>
+                <input type="checkbox" class="allsel">
+                <span class="sd">商品信息</span>
+                <span class="sd-1">单价（元）</span>
+                <span class="sd-2">数量</span>
+                <span class="sd-3">重量（含包装）</span>
+                <span class="sd-4">小计(元)</span>
+                <span class="sd-5">操作</span>
+            </span>
+        </div>
+        <div class="nav-4"></div>
+        <div class="nav-5">
+            <input type="checkbox">
+            <em>批量删除</em>
+            <div class="check">
+              合计：¥0.00
+            </div>
+            <div class="jiesuan">去结算</div>
+        </div>
+      </div>
+    
     </div>
 
-    <div class="cont">
-        <p>您的购物车还是空的</p>
-        <a href="">
-            去逛逛
-        </a>
-    </div>
+    
 
    
 
